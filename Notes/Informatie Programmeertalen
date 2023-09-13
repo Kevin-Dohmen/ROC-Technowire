@@ -1,0 +1,28 @@
+1946: Plankalkül
+    Ontwikkeld door: Konrad Zuse.
+    Een van de eerste programmeertalen.
+
+1947: Assembly
+    Ontwikkeld door: meerdere
+    Het is niet specifiek één taal, het is een verzamelnaam voor een paar van de meest "Low-Level" programmeertalen
+    Ligt heel dicht bij de cpu, bijna direct raw computer data(low-level programming language)
+    Maakt gebruik van binair, hexadecimaal of korte woordjes om instructies te omschrijven.
+
+1985: C++
+    Ontwikkeld door: Bjarne Stroustrup
+    Een hele snelle programmeertaal.
+    Moet gecompiled worden om uit te kunnen voeren.
+    Gebruikt bekende engelse woorden om functies aan te geven
+
+1991: Python
+    Ontwikkeld door: Guido van Rossum
+    Python is een interpreted programmeertaal, dit betekent dat hij terwijl je het uitvoert lijn voor lijn word gecompiled in plaats van voor het runnen compilen en dan het volledige script runnen.
+    Dit zorgt ervoor dat je minder lang hoeft te wachten op de compiler en maakt python makkelijk om in te debuggen.
+    Dit maakt het wel slomer.
+    Het word vaak gebruikt voor dataverwerking en als introtaal omdat het makkelijk te gebruiken is.
+
+1995: Java
+    Ontwikkeld door: James Gosling
+    Java is een Object-Oriented programmeertaal.
+    Moet gecompiled worden om uit te kunnen voeren.
+    Een uitbereiding van Java, Java script, word vaak gebruikt in websites.
