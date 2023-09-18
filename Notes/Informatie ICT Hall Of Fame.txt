@@ -1,0 +1,62 @@
+o Steve Wozniak en Steve Jobs
+    - richtte samen het techbedrijf Apple op
+    - Wozniak: Aug 1950
+    - Jobs: Feb 1955
+
+o Ada Lovelace
+    - hielp met het ontwerpen van de "analytische machine"
+    - beschreef dat dat soort machine muziek kon componeren en wetenschap te bedrijven.
+    - programmeertaal Ada ontwikkeld door amerikaanse Defensie.
+    - december 1815
+
+o Larry Page en Sergey Brin
+    - Oprichter Google inc.
+    - Mar 1973
+
+o Charles Babbage
+    - Uitvinder van meerdere vroege computers:
+        - Difference engine
+        - Analytische machine (met ada Lovelace)
+    - Dec 1791
+
+o William Shockley
+    - Uitvinder van de transistor
+    - Feb 1910
+
+o Grace Hopper
+    - schreef de eerste programma's voor de "mark 1 calculator"
+    - schreef de eerste compiler voor de taal
+    - Dec 1906
+
+o Linus Torvalds
+    - ontwikkelaar van de eerste Linuxkernel
+    - Dec 1969
+
+o Mark Zuckerberg
+    - Oprichter van Facebook
+    - Mei 1984
+
+o Bill Gates
+    - Oprichter Microsoft
+    - rijkste man ter wereld
+    - okt 1955
+
+o Gordon Moore
+    - Oprichter Intel
+    - Jan 1929
+
+o Chad Hurley, Steve Chen en Jawed Karim
+    - Oprichters YouTube
+    - Hurley: Jan 1977
+    - Chen: Aug 1978
+    - Karim: Okt 1979
+
+o Kevin Mitnick
+    - "'s werleds bekendste hacker"
+    - een van de eerste hackers
+    - Aug 1963
+
+o Rich Skrenta
+    - schrijver van het eerste computer virus "Elk Cloner"
+    - ontwikkelaar van Blekko browser.
+    - 1967
