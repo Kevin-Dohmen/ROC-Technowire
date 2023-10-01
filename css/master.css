@@ -1,5 +1,9 @@
 :root {
+    
+}
 
+body {
+    background-color: #4E80B3;
 }
 
 .grid-container {
@@ -16,45 +20,46 @@
 
 .gridcontent {
     /*for all content in the grid areas*/
-    background-color: #fff8;
+    padding: 5px;
+}
+
+.grid-container div {
+    background-color: #00DAFF;
 }
 
 .banner {
     grid-area: banner;
-    background-color: #f00;
+    background-color: #FFF8;
     .gridcontent {
-        background-color: #fff8;
+        padding: 0px;
+        background-color: #FFF8;
     }
 }
 
 .header {
     grid-area: header;
-    background-color: #0f0;
     .gridcontent {
-        background-color: #fff8;
+        
     }
 }
 
 .main {
     grid-area: main;
-    background-color: #00f;
     .gridcontent {
-        background-color: #fff8;
+        
     }
 }
 
 .sidebar {
     grid-area: sidebar;
-    background-color: #f0f;
     .gridcontent {
-        background-color: #fff8;
+        
     }
 }
 
 .footer {
     grid-area: footer;
-    background-color: #ff0;
     .gridcontent {
-        background-color: #fff8;
+        
     }
 }
