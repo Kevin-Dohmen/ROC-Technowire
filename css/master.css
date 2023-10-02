@@ -1,9 +1,10 @@
 :root {
-    
+
 }
 
 body {
     background-color: #4E80B3;
+    font-family: Agency FB, sans-serif;
 }
 
 .grid-container {
@@ -32,7 +33,6 @@ body {
     background-color: #FFF8;
     .gridcontent {
         padding: 0px;
-        background-color: #FFF8;
     }
 }
 
