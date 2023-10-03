@@ -1,9 +1,13 @@
 :root {
-
+    --light-blue: #00daff;
+    --deep-blue: #00BBFF;
+    --steel-blue: #4E80B3;
+    --white: #FFF;
+    --black: #000;
 }
 
 body {
-    background-color: #4E80B3;
+    background-color: var(--steel-blue);
     font-family: Agency FB, sans-serif;
 }
 
@@ -24,15 +28,14 @@ body {
     padding: 5px;
 }
 
-.grid-container div {
-    background-color: #00DAFF;
+.grid-container .gridBlocks {
+    background-color: var(--deep-blue);
 }
 
 .banner {
     grid-area: banner;
-    background-color: #FFF8;
     .gridcontent {
-        padding: 0px;
+        padding: 0;
     }
 }
 
@@ -56,6 +59,22 @@ body {
         
     }
 }
+
+.sidebarButton {
+    background-color: #00ff80;
+    border: 2px solid #000;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    color: #000;
+}
+
+.sidebarText {
+    text-align: center;
+    color: #000;
+    margin: 5px;
+}
+
+a:hover .sidebarButton {background-color: #00dd6e;}
 
 .footer {
     grid-area: footer;
