@@ -1,13 +1,17 @@
 :root {
+    --bg: #4E80B3;
+    --contentBoxes: #00BBFF;
+    --sb-button: #00ff80;
+    --sb-button-h: #00dd6e;
+    --tl-bg: #fff;
+    --tl-border: #000;
     --light-blue: #00daff;
-    --deep-blue: #00BBFF;
-    --steel-blue: #4E80B3;
     --white: #FFF;
     --black: #000;
 }
 
 body {
-    background-color: var(--steel-blue);
+    background-color: var(--bg);
     font-family: Agency FB, sans-serif;
 }
 
@@ -29,7 +33,7 @@ body {
 }
 
 .grid-container .gridBlocks {
-    background-color: var(--deep-blue);
+    background-color: var(--contentBoxes);
 }
 
 .banner {
@@ -61,7 +65,7 @@ body {
 }
 
 .sidebarButton {
-    background-color: #00ff80;
+    background-color: var(--sb-button);
     border: 2px solid #000;
     border-radius: 5px;
     margin-bottom: 5px;
@@ -74,11 +78,45 @@ body {
     margin: 5px;
 }
 
-a:hover .sidebarButton {background-color: #00dd6e;}
+a:hover .sidebarButton {background-color: var(--sb-button-h);}
 
 .footer {
     grid-area: footer;
     .gridcontent {
         
     }
+}
+
+.tl-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    grid-template-areas: 
+    "blk1 blk2"
+    "blk3 blk4";
+    grid-gap: 2px;
+}
+
+.tl-block {
+    .tl-blockL {
+        width: 50px;
+        float: left;
+        margin-right: 5px;
+        font-weight: 900;
+        text-align: center;
+        border: 2px solid var(--tl-border);
+        border-radius: 5px;
+    }
+
+    .tl-blockR {
+        width: auto;
+        background-color: var(--tl-bg);
+        border: 2px solid var(--tl-border);
+        border-radius: 5px;
+    }
+
+    .blk1 {grid-area: blk1;}
+    .blk2 {grid-area: blk2;}
+    .blk1 {grid-area: blk3;}
+    .blk2 {grid-area: blk4;}
 }
