@@ -105,19 +105,18 @@ a:hover .sidebarButton {background-color: var(--sb-button-h);}
     margin: 0px 20px 20px 20px;
     padding: 0;
     width: 90%;
-    transition: 0.4s ease;
     overflow-wrap: break-word !important;
 }
 
 .tl-title {
     background-color: var(--title-color);
     border-radius: 5px 5px 0 0;
-    p {
+    .text {
         margin: 0 5px;
         font-size: 16px;
         font-weight: 600;
         padding: 10px 5px;
-    }
+    };
 }
 
 .tl-description {
@@ -125,10 +124,10 @@ a:hover .sidebarButton {background-color: var(--sb-button-h);}
     margin: 0;
     color: var(--tl-color);
     border-radius: 0 0 5px 5px;
-    p {
+    .text {
         margin: 0 5px;
         padding: 5px;
-    }
+    };
 }
 
 @media screen and (min-width: 768px) {
