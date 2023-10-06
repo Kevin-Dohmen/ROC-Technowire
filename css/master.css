@@ -154,3 +154,8 @@ a:hover .sidebarButton {background-color: var(--sb-button-h);}
         background-color: var(--tl-circle);
     }
 }
+
+
+.debugborder {
+    border: 1 solid magenta;
+}
