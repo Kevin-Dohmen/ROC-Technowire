@@ -3,6 +3,7 @@
     --contentBoxes: #00BBFF;
     --sb-button: #00ff80;
     --sb-button-h: #00dd6e;
+    --sb-button-border: #000;
     --tl-bg: #fff;
     --tl-border: #000;
     --tl-color: #000;
@@ -69,7 +70,7 @@ body {
 
 .sidebarButton {
     background-color: var(--sb-button);
-    border: 2px solid #000;
+    border: 2px solid var(--sb-button-border);
     border-radius: 5px;
     margin-bottom: 5px;
     color: #000;
