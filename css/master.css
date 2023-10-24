@@ -1,7 +1,7 @@
 :root {
     --bg: #4E80B3;
     --contentBoxes: #00BBFF;
-    --sb-button: #FF7C00;
+    --sb-button: #00FF7F;
     --sb-button-h: #00ff00;
     --sb-button-border: #000;
     --tl-bg: #fff;
@@ -131,28 +131,93 @@ a:hover .sidebarButton {background-color: var(--sb-button-h);}
     };
 }
 
-@media screen and (min-width: 768px) {
+.timeline {
+    display: grid;
+    grid-template-columns: 1fr 3px 1fr;
+}
+.tl-block {
+    width: auto;
+}
+.tl-middle {
+    position: relative;
+    background-color: var(--tl-line);
+    width: 100%;
+    height: 100%;
+}
+.tl-circle {
+    position: absolute;
+    top: 0;
+    left: -6px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: var(--tl-circle);
+}
+
+.hammenu {
+    display: none;
+}
+
+@media screen and (max-width: 1200px) {
     .timeline {
-        display: grid;
-        grid-template-columns: 1fr 3px 1fr;
+        display: block;
+        /* grid-template-columns: 1fr 3px 1fr; */
     }
     .tl-block {
         width: auto;
     }
     .tl-middle {
-        position: relative;
-        background-color: var(--tl-line);
-        width: 100%;
-        height: 100%;
+        display: none;
     }
     .tl-circle {
-        position: absolute;
-        top: 0;
-        left: -6px;
-        width: 15px;
-        height: 15px;
-        border-radius: 50%;
-        background-color: var(--tl-circle);
+        display: none;
+    }
+
+    .hammenu{
+        display: block;
+        position: fixed;
+        top: 10px;
+        right: 10px;
+        z-index: 100;
+
+        .menugridcontent {
+            display: none;
+        }
+
+        .hamicon{
+            width: 50px;
+            height: 50px;
+            background-color: var(--sb-button);
+            border-radius: 5px;
+            float: right;
+        }
+        .hamicon:hover{
+            background-color: var(--sb-button-h);
+        }
+    }
+    .hammenu:hover {
+        .hamcontent{
+            background-color: #ffffff;
+            margin-top: 60px;
+            width: 500px;
+            height: auto;
+        }
+        .menugridcontent {
+            display: block;
+        }
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: auto auto auto auto;
+        grid-template-areas:
+        "banner"
+        "header"
+        "main"
+        "footer";
+        grid-gap: 5px;
+        
     }
 }
 
