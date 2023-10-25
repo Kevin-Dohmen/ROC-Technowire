@@ -61,6 +61,13 @@ body {
     }
 }
 
+.footer {
+    grid-area: footer;
+    .gridcontent {
+        padding-left: 25px;
+    }
+}
+
 .sidebar {
     grid-area: sidebar;
     .gridcontent {
@@ -83,13 +90,6 @@ body {
 }
 
 a:hover .sidebarButton {background-color: var(--sb-button-h);}
-
-.footer {
-    grid-area: footer;
-    .gridcontent {
-        
-    }
-}
 
 .timeline {
     display: flex;
@@ -154,11 +154,20 @@ a:hover .sidebarButton {background-color: var(--sb-button-h);}
     background-color: var(--tl-circle);
 }
 
-.hammenu {
+#hammenu {
     display: none;
 }
 
-@media screen and (max-width: 1200px) {
+.homeWelcome {
+    font-size: 16px;
+    font-weight: 600;
+    margin: 20px;
+    h3 {
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (max-width: 1000px) {
     .timeline {
         display: block;
         /* grid-template-columns: 1fr 3px 1fr; */
@@ -173,7 +182,11 @@ a:hover .sidebarButton {background-color: var(--sb-button-h);}
         display: none;
     }
 
-    .hammenu{
+    .sidebar {
+        display: none;
+    }
+
+    #hammenu{
         display: block;
         position: fixed;
         top: 10px;
@@ -187,7 +200,7 @@ a:hover .sidebarButton {background-color: var(--sb-button-h);}
         .hamicon{
             width: 50px;
             height: 50px;
-            background-color: var(--sb-button);
+            background-color: #fff;
             border-radius: 5px;
             float: right;
         }
@@ -195,8 +208,9 @@ a:hover .sidebarButton {background-color: var(--sb-button-h);}
             background-color: var(--sb-button-h);
         }
     }
-    .hammenu:hover {
-        .hamcontent{
+
+    #hammenu.show-menu{
+        .hamcontent {
             margin-top: 60px;
             width: 200px;
             height: auto;
