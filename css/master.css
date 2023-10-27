@@ -4,7 +4,7 @@
     --sb-button: #00FF7F;
     --sb-button-h: #00ff00;
     --sb-button-border: #000;
-    --tl-bg: #fff;
+    --tl-bg: #d0e4fe;
     --tl-border: #000;
     --tl-color: #000;
     --tl-line: #f00;
@@ -12,6 +12,7 @@
     --light-blue: #00daff;
     --white: #FFF;
     --black: #000;
+    --title-color: #003366;
 }
 
 body {
@@ -117,6 +118,7 @@ a:hover .sidebarButton {background-color: var(--sb-button-h);}
         font-size: 16px;
         font-weight: 600;
         padding: 10px 5px;
+        color: #ffffff
     };
 }
 
@@ -134,6 +136,7 @@ a:hover .sidebarButton {background-color: var(--sb-button-h);}
 .timeline {
     display: grid;
     grid-template-columns: 1fr 3px 1fr;
+    color: #333333;
 }
 .tl-block {
     width: auto;
