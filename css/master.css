@@ -1,14 +1,14 @@
 :root {
-    --bg: #4E80B3;
+    --bg: #00daff;/*#4E80B3;*/
     --contentBoxes: #00BBFF;
-    --sb-button: #00FF7F;
-    --sb-button-h: #00ff00;
+    --sb-button: #fff;
+    --sb-button-h: #dff;
     --sb-button-border: #000;
-    --tl-bg: #d0e4fe;
+    --tl-bg: #fff/*#d0e4fe*/;
     --tl-border: #000;
     --tl-color: #000;
-    --tl-line: #f00;
-    --tl-circle: #f00;
+    --tl-line: #000;
+    --tl-circle: #000;
     --light-blue: #00daff;
     --white: #FFF;
     --black: #000;
@@ -119,7 +119,16 @@ a:hover .sidebarButton {background-color: var(--sb-button-h);}
         font-weight: 600;
         padding: 10px 5px;
         color: #ffffff
-    };
+    }
+
+    .tl-titlepic {
+        width: 100px;
+        border-radius: 5px;
+        margin-bottom: 5px;
+    }
+    .tl-titlepic:first-child {
+        margin-left: 10px;
+    }
 }
 
 .tl-description {
@@ -136,7 +145,7 @@ a:hover .sidebarButton {background-color: var(--sb-button-h);}
 .timeline {
     display: grid;
     grid-template-columns: 1fr 3px 1fr;
-    color: #333333;
+    color: #333;
 }
 .tl-block {
     width: auto;
@@ -165,7 +174,7 @@ a:hover .sidebarButton {background-color: var(--sb-button-h);}
     font-size: 16px;
     font-weight: 600;
     margin: 20px;
-    h3 {
+    .homeh3 {
         margin-bottom: 0;
     }
 }
