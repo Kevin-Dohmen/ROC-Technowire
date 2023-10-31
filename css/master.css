@@ -23,6 +23,7 @@
 body {
     background-color: var(--bg);
     font-family: agencyfb, sans-serif;
+    letter-spacing: 0.15em;
     color: #000;
 }
 
